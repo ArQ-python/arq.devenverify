@@ -44,9 +44,14 @@ ArQ.devenverify/
         └── readme.md
     ├── core.py
     └── Readme.md
+├── test/
+    ├── __init__.py
+    ├── test.py
+    └── readme.md
 ├── main.py
 ├── readme.md
 ├── requirements.txt
+├── test.py
 └── LICENSE
 ```
 
