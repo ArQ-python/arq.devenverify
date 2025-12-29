@@ -28,22 +28,24 @@ ArQ.devenverify/
     ├── developement.md
     ├── usage.md
     └── architecture.png
-├── core/
+├── src/
     ├── __init__.py
-    ├── os_detector/
+    ├── core/
         ├── __init__.py
-        ├── osdetector.py
-        └── readme.md 
-    ├── devenv_checker/
-        ├── __init__.py
-        ├── devenvchecker.py
+        ├── os_detector/
+            ├── __init__.py
+            ├── osdetector.py
+            └── readme.md 
+        ├── devenv_checker/
+            ├── __init__.py
+            ├── devenvchecker.py
+            └── readme.md
+        ├── command_engine/
+            ├── __init__.py
+            ├── commandengine.py
+            └── readme.md
+        ├── core.py
         └── readme.md
-    ├── command_engine/
-        ├── __init__.py
-        ├── commandengine.py
-        └── readme.md
-    ├── core.py
-    └── Readme.md
 ├── test/
     ├── __init__.py
     ├── test.py
